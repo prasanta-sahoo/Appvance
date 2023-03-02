@@ -1,0 +1,17 @@
+[
+    {
+        "serverURL": "http://localhost:4723/wd/hub",
+        "proxyHost": "{localhost, IP Address or Fully Qualified Domain Name of machine in which AIQ runs}",
+        "proxyPort": "{9090, port in which Test Designer runs}",
+        "capturePort": "{9191, port used in Proxy settings of this device}",
+        "capabilities": {
+            "platformVersion": "{11.0}",
+            "udid": "{emulator-5554}",
+            "systemPort": "{8201, or any value between 8200 - 8299 unique to this device}",
+            "deviceName": "{Pixel 4}"
+        },
+        "app": "{Absolute path or URL of .apk, needed if Application is not installed, otherwise is optional}",
+        "appPackage": "{com.android.chrome}",
+        "appActivity": "{org.chromium.chrome.browser.document.ChromeLauncherActivity - Chrome}"
+    }
+]
